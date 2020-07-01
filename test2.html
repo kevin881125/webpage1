@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>表單</title>
+
+</head>
+<body>
+	<center>
+	<form action="get" method="資料傳送方式">
+	<b>請輸入姓名</b>	<input type="text" name="id"/><br><br>
+</form>
+<form>
+<select name="性別">
+　<option value="Taipei">男生</option>
+　<option value="Taoyuan">女生</option>
+</select>
+<form>
+<select name="選擇你居住的地方">
+　<option value="Taipei">台北</option>
+　<option value="Taoyuan">桃園</option>
+　<option value="Hsinchu">新竹</option>
+　<option value="Miaoli">苗栗</option>
+</select><br>
+<b>設定帳號</b><input type="text" name="id"/><br><br>
+<b>設定密碼 8位數</b><input type="password" pattern="[a-zA-Z0-9]{8,}"><br>
+<input type="radio" id="male" name="gender" value="male">
+<label for="male">0-14歲</label><br>
+<input type="radio" id="female" name="gender" value="female">
+<label for="female">14-18歲</label><br>
+<input type="radio" id="other" name="gender" value="other">
+<label for="other">18歲以上</label><br>
+<textarea cols="50" rows="5">
+　有什麼問題都可以在這裡提問
+</textarea>
+<input type="submit" value="送出表單">
+		</center>
+</body>
+</html>						
